@@ -3,7 +3,7 @@ require("dotenv").config();
 const { ethers } = require("ethers");
 const ganache = require("ganache-core");
 
-const PORT = 8545;
+const PORT = 7545;
 
 // fork off mainnet with a specific account preloaded with 1000 ETH
 const server = ganache.server({

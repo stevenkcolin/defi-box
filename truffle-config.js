@@ -7,11 +7,11 @@ module.exports = {
     test: {
       skipDryRun: true,
       host: "127.0.0.1",
-      port: 8545,
+      port: 7545,
       network_id: "*",
       provider: () => new HDWalletProvider(
         process.env.PRIV_KEY_DEPLOY,
-        "http://127.0.0.1:8545",
+        "http://127.0.0.1:7545",
       ),
     },
   },

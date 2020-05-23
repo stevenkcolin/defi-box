@@ -6,7 +6,7 @@ const NodeEnvironment = require("jest-environment-node");
 
 const startChain = async () => {
   const ganache = Ganache.provider({
-    fork: "http://127.0.0.1:8545",
+    fork: "http://127.0.0.1:7545",
     network_id: 1,
     accounts: [
       {
