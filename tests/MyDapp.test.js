@@ -18,6 +18,7 @@ describe("initial conditions", () => {
 
     myDapp = new ethers.Contract(
       MyDappArtifact.networks[1].address,
+      // "0x151d1AaD0dE85e59A2238e16B2958327e4E2bC5F",
       MyDappArtifact.abi,
       wallet,
     );
